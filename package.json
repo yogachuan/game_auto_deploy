@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "dev": "nodemon ./index.js",
+    "prod": "pm2 start pm2.json"
+  },
+  "devDependencies": {
+    "address": "^1.1.2",
+    "fs": "^0.0.1-security",
+    "querystring": "^0.2.0",
+    "url": "^0.11.0",
+    "ssh2": "^1.5.0",
+    "iconv-lite": "^0.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "nodemon": "^2.0.15",
+    "tcp-port-used": "^1.0.2"
+  }
+}
